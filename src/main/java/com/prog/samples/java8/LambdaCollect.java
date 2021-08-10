@@ -1,6 +1,7 @@
 package com.prog.samples.java8;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,6 +23,7 @@ public class LambdaCollect {
         .sorted((person, person2) -> person.getName().compareTo(person2.getName()))
         .collect(Collectors.toList()));
 
+   
 
 
   }
